@@ -129,7 +129,7 @@ const Login = () => {
           </button>
           <button className="btn btn-light border shadow-sm">
             <img
-              src="https://img.icons8.com/fluency/20/linkedin.png"
+              src="https://img.icons8.com/fluency/20/linkedin.png" 
               alt="linkedin"
               className="me-1"
             />

@@ -11,7 +11,7 @@ const JobList = () => {
 
   // fetch jobs
   useEffect(() => {
-    fetch("http://localhost:5000/api/jobs")   // backend JSON route
+    fetch("https://hrify-opportunities-backend-jk.onrender.com/api/jobs")   // backend JSON route
       .then((res) => res.json())
       .then((data) => {
         setJobs(data);
